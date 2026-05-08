@@ -52,6 +52,7 @@ API_SECRET_KEY=feeldx-dev-secret-2026
 AI_ENGINE=mock
 OPENROUTER_API_KEY=your_openrouter_key_here
 OPENROUTER_MODEL=openrouter/free
+FRONTEND_URL=https://your-fe-url.vercel.app
 ```
 
 - Set `AI_ENGINE=mock` to use the built-in rule-based engine (no API key needed)
