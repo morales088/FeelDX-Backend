@@ -32,7 +32,7 @@ Respond with this exact JSON. The "missing" array must only contain items from: 
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'HTTP-Referer': 'https://feeldx.vercel.app',
+        'HTTP-Referer': this.config.get('FRONTEND_URL') || 'https://feeldx.vercel.app',
         'X-Title': 'FeelDX Assistant',
       },
       body: JSON.stringify({
