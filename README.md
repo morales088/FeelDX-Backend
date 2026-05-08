@@ -47,8 +47,7 @@ npm install
 Create a `.env` file in the `backend/` root:
 
 ```env
-PORT=3000
-ALLOWED_ORIGIN=http://localhost:5173
+ALLOWED_ORIGIN=*
 API_SECRET_KEY=feeldx-dev-secret-2026
 AI_ENGINE=mock
 OPENROUTER_API_KEY=your_openrouter_key_here
